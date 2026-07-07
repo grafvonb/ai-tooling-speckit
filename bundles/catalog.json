@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-07-07T00:00:00Z",
+  "catalog_url": "https://raw.githubusercontent.com/grafvonb/ai-tooling-speckit/main/bundles/catalog.json",
+  "bundles": {
+    "basic-speckit-c8volt-stack": {
+      "id": "basic-speckit-c8volt-stack",
+      "name": "Basic SpecKit c8volt Stack",
+      "version": "1.0.0",
+      "role": "developer",
+      "description": "Baseline Spec Kit setup with Git workflow, Ralph loop, architecture workflow, and coding agent context.",
+      "author": "grafvonb",
+      "license": "MIT",
+      "download_url": "https://raw.githubusercontent.com/grafvonb/ai-tooling-speckit/main/bundles/basic/basic-speckit-c8volt-stack-1.0.0.zip",
+      "repository": "https://github.com/grafvonb/ai-tooling-speckit",
+      "requires": {
+        "speckit_version": ">=0.9.0"
+      },
+      "provides": {
+        "extensions": 4
+      },
+      "verified": false,
+      "tags": ["baseline", "developer", "git", "ralph", "architecture", "agent-context"]
+    }
+  }
+}

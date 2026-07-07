@@ -1,0 +1,28 @@
+schema_version: "1.0"
+
+bundle:
+  id: "basic-speckit-c8volt-stack"
+  name: "Basic SpecKit c8volt Stack"
+  version: "1.0.0"
+  role: "developer"
+  description: "Baseline Spec Kit setup with Git workflow, Ralph loop, architecture workflow, and coding agent context."
+  author: "grafvonb"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.9.0"
+  tools: []
+  mcp: []
+
+provides:
+  extensions:
+    - id: "git"
+      version: "1.0.0"
+    - id: "ralph"
+      version: "1.2.1"
+    - id: "arch"
+      version: "1.2.2"
+    - id: "agent-context"
+      version: "1.0.0"
+
+tags: ["baseline", "developer", "git", "ralph", "architecture", "agent-context"]
